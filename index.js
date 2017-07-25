@@ -129,7 +129,7 @@ app.get('/admin', function (req, res) {
     //   var userName = req.body.userName;
     var html = '<form action="/admin" method="post">' +
         'Enter your name:' +
-        '<input type="email" name="userName" placeholder="..." />' +
+        '<input type="email" name="enter email" placeholder="..." />' +
         '<br>' +
         '<button type="submit">Submit</button>' +
         '</form>';
